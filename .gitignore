@@ -1,0 +1,21 @@
+# Go
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
