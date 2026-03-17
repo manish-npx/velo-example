@@ -1,0 +1,81 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+*.coverage
+coverage.html
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Idea
+.idea
+*.iml
+
+# VS Code
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# IDE files
+*.swp
+*.swo
+*~
+.#*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# Project specific
+dist/
+build/
+bin/velo
+
+# Test artifacts
+testdata/
+mock_*.go
